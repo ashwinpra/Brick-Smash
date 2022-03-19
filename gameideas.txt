@@ -1,0 +1,5 @@
+1. wordle but word length not specified:
+    could be heavy because of large database of words
+2. shooter type game
+    this could be used to learn logics 
+3. cheap super mario run 

@@ -15,5 +15,4 @@ class player(object):
 
 
 
-
 pg.quit()
