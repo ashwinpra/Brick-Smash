@@ -110,7 +110,7 @@ def game():
             score += 1
             brick.kill()
             if len(bricks)==0:
-                draw_text(large_font,"GAME COMPLETED!",WHITE,60,300)
+                draw_text(large_font,"GAME COMPLETED!",WHITE,50,300)
                 draw_text(medium_font,f"Final Score = {score}",WHITE,185,350)
                 pygame.display.flip()
                 pygame.time.wait(3000)
@@ -237,7 +237,7 @@ class Ball(Sprite):
             if lives==0:
                 # Display game over message
                 draw_text(large_font,"GAME OVER",WHITE,150,300)
-                draw_text(medium_font,f"Final Score = {score}",WHITE,200,350)
+                draw_text(medium_font,f"Final Score = {score}",WHITE,190,350)
                 pygame.display.flip()
                 pygame.time.wait(3000)
                 running = False
